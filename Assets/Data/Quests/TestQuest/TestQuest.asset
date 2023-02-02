@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d646287b4421674fbc8151cc56c3158, type: 3}
+  m_Name: TestQuest
+  m_EditorClassIdentifier: 
+  information:
+    name: Test Quest
+    description: This is a test quest
+  reward:
+    exp: 10
+    currency: 10
+    items:
+    - {fileID: 11400000, guid: ae2eeec39db16f04c91ce20250fddb31, type: 2}
+  goals:
+  - {fileID: 11400000, guid: ab0fed96d37b6b444b1b30a05d517193, type: 2}
